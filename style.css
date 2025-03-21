@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: silver;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.form {
+  background-color: white;
+  margin-left: 50px;
+  height: 500px;
+  width: 400px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+form{
+    margin-left: 20px;
+    /* height: fit-content; */
+    font-size: larger;
+    padding-top: 15px;
+    width: 350px;
+}
+
+button{
+    background-color: aqua;
+    width: 300px;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
